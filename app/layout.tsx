@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Claude — Hi',
-  description: 'A minimal Claude-style conversation interface.',
+  title: 'Thinking about python code',
+  description: 'A streamed coding conversation.',
 };
 
 export default function RootLayout({

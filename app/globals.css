@@ -1,3 +1,4 @@
+@import url('https://cdn.jsdelivr.net/npm/charter-webfont@4/charter.min.css');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
@@ -68,6 +69,7 @@
 
   body {
     @apply min-h-dvh bg-background text-foreground antialiased;
+    font-family: 'Charter', 'Bitstream Charter', Georgia, serif;
   }
 
   button,
